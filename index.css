@@ -1,0 +1,112 @@
+.form_FC{
+	position: relative;
+	top:50px;
+	left:50%;
+	transform: translate(-50%,-0);
+	/*background: #8a4af3;*/
+}
+
+iframe{
+	/*background: #f34a5e;*/
+}
+
+.logo{
+    position: relative; 
+	width:400px;
+	height:auto;
+	margin: 0px;
+}
+
+.logo_text{
+	/*background: #4a5ef3;*/
+	width: 695px;
+	margin: auto;
+
+}
+
+.logo_text p{
+	font-family: 'Alata', sans-serif;
+	text-align: justify;
+	font-size: 18PX;
+	width: 90%;
+	margin: auto;
+
+}
+
+.box_3{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 0px;
+	position: relative;
+	bottom:0px;
+	
+}
+
+.text_btm
+{
+	/*background: #4af3df;*/
+	width: 700px;
+	margin: auto;
+	height: 10px;
+	position: relative;
+	margin-top: 50px;
+}
+
+.sig{
+	margin: auto;
+	width: 200px;
+	/*background: #dac842;*/
+	position: relative;
+	top:50%;
+	left:50%;
+	transform: translate(-100%,-50%);
+}
+
+.box_sig{
+	width: 700px;
+	height: 150px;
+	/*background: #42dac8;*/
+	position: relative;
+}
+
+.cg_logo{
+	width: 19%;
+	/*background: #a0da42;*/
+	margin: auto;
+	margin-top: 10px;
+}
+
+.links img{
+	width: 150px;
+
+}
+
+.links{
+	/*background: #42a0da;*/
+    margin-top: 70px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 0px;
+	position: relative;
+	top:345px;
+}
+
+footer{
+	margin-top: 300px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 0px;
+	position: relative;
+	bottom:0px;
+	font-family: 'Alata', sans-serif;
+	font-size: 15px;
+}

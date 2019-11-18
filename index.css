@@ -110,3 +110,67 @@ footer{
 	font-family: 'Alata', sans-serif;
 	font-size: 15px;
 }
+.Policies{
+	/*background: #8c3f23;*/
+	width:700px;
+	margin:auto;
+	font-family: 'Alata', sans-serif;
+	font-size: 25px;
+}
+.Hd_P{
+    font-family: 'Alata', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.maintext{
+	text-align: justify;
+}
+
+.button{
+	width: 700px;
+	margin: auto;
+	background: #e91e63;
+	text-align: center;
+	padding: 1px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+	border-radius: 50px;
+	color: white;
+	margin-top:10px;
+}
+
+.button:hover{
+	background: #1ec9e9;
+	color: black;
+}
+
+.button:active{
+	background: #0f6474;
+	color: white;
+}
+
+.button-back{
+	width: 700px;
+	margin: auto;
+	background: #8a4af3;
+	text-align: center;
+	padding: 1px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+	border-radius: 50px;
+	color: white;
+	margin-top:10px;
+
+}
+
+.button-back:hover{
+	background: #009688;
+	color: white;
+}
+
+.button-back:active{
+	background: #ffc107;
+	color: black;
+
+}

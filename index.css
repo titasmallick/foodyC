@@ -174,3 +174,26 @@ footer{
 	color: black;
 
 }
+
+.button-index{
+	width: 700px;
+	margin: auto;
+	background: #e91e63;
+	text-align: center;
+	padding: 1px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+	border-radius: 50px;
+	color: white;
+	margin-top:55px;
+}
+
+.button-index:hover{
+	background: #1ec9e9;
+	color: black;
+}
+
+.button-index:active{
+	background: #0f6474;
+	color: white;
+}

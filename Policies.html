@@ -24,10 +24,11 @@
 
 	<p class="Hd_P">In case of violation of any group rules </p>
 	<p class="maintext">If all/any rules/group policies are violated by any of the members of the groups, Then you are requested to complain here. Just take a screenshot and upload here with any/all complains, mention the person(s)'s name(s) and WhatsApp Number(s) and describe in few words of his/her action. We will take instant action(s). <br>We are trying to make this community a safe and well lit food heaven, where people can freely talk and share about their personal opinion focused around only food and food related place(s), method(s), etc. No cultural, racial or sexual discrimination should not be tolerated in this group at any cost. So all the members are requested to maintain and follow all the group rules that are mentioned above.</p>
-	<p style="text-align: center;"><br><br>IF YOU HAVE ANY COMPLAIN AGAINST ANY MEMBER(S) OF THE GROUP THEN PROCCED FURTHER, SUBMIT YOUR COMPLAIN NOW.</p> 
+	<p style="text-align: center;"><br><br>IF YOU HAVE ANY COMPLAIN AGAINST ANY MEMBER(S) OF THE GROUP THEN PROCCED FURTHER, SUBMIT YOUR COMPLAIN NOW.</p>
+	<p style="font-size: 20px;"><input id="myCheck" type="checkbox" name="terms" onclick="myFunction()"> I have read and understood the <u>GROUP POLICIES</u></p>
 </div>
 
-<a style="text-decoration: none;" href="https://forms.gle/458q1gb6grCbc8uX6"><div class="button"><p>I have a complain, I want to submit now</p></div></a>
+<a style="text-decoration: none;" href="https://forms.gle/458q1gb6grCbc8uX6"><div style="opacity: 0;" id="btn" class="button"><p>I have a complain, I want to submit now</p></div></a>
 
 <a style="text-decoration: none;" href="index.html"><div class="button-back"><p>No, Go back</p></div></a>
 
@@ -52,5 +53,18 @@
 <footer>
 	<p>Thanks, amazing human | FC2019 | CG</p>
 </footer>
+<script>
+	function myFunction() {
+		var checkBox = document.getElementById("myCheck");
+		var button = document.getElementById("btn");
+		if (checkBox.checked == true) {
+			button.style.opacity = "1";
+		}
+		else{
+			button.style.opacity = "0";
+		}
+	}
+	
+</script>
 </body>
 </html>

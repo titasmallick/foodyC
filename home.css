@@ -1,6 +1,6 @@
 .header {
-	position: relative;
-	top:50px;
+	position: absolute;
+	top:2px;
 	left:50%;
 	transform: translate(-50%,-0);
 }
@@ -9,4 +9,51 @@
 		/*height: 20%;*/
 		/*background: black;*/
 
+}
+.text_btm
+{
+	/*background: #4af3df;*/
+	width: 700px;
+	margin: auto;
+	height: 200px;
+	position: relative;
+	margin-top: 200px;
+	}
+
+	.sig{
+	margin: auto;
+	width: 200px;
+	/*background: #dac842;*/
+	position: relative;
+	top:50%;
+	left:50%;
+	transform: translate(-100%,-50%);
+}
+
+.box_sig{
+	width: 700px;
+	height: 150px;
+	/*background: #42dac8;*/
+	position: relative;
+}
+/*
+.main{
+	position: relative;*/
+}
+.links img{
+	height: 20%;
+
+}
+
+/*.links{
+	/*background: #42a0da;*/
+    margin-top: 70px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 0px;
+	position: relative;
+	top:345px;*/
 }

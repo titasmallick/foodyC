@@ -38,39 +38,12 @@
 	position: relative;
 }
 
-/*.links img{
-	height: 20%;
-	width: 20%;
-
-
-}*/
-/*.links{
-	background: #42a0da;
-    margin-top: 70px;
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	padding: 0px;
-	position: relative;
-	top:345px;
-}*/
-
 .links img{
-	margin: auto;
-	width: 200px;
-	margin-top: 150px;
+	height: 20%;
+	width: 24%;
 }
 
-.links{	
-	width: 800px;
-	/*height: 150px;*/
-	/*background: #42dac8;*/
-	position: relative;
-	left:50%;
-	transform: translate(-50%,0%);
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-}
+.links {
+  text-align: center;
+  }
+

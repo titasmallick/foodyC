@@ -1,6 +1,10 @@
+a{
+	text-decoration: none
+}
+
 .header {
 	position: absolute;
-	top:2px;
+	top:8px;
 	left:50%;
 	transform: translate(-50%,-0);
 }
@@ -18,7 +22,7 @@
 	margin: auto;
 	height: 200px;
 	position: relative;
-	margin-top: 200px;
+	margin-top:1180px;
 	}
 
 	.sig{
@@ -26,7 +30,7 @@
 	width: 200px;
 	/*background: #dac842;*/
 	position: relative;
-	top:50%;
+	top:70%;
 	left:50%;
 	transform: translate(-100%,-50%);
 }
@@ -45,5 +49,78 @@
 
 .links {
   text-align: center;
+  margin-top: 1px;
+  position: absolute;
   }
 
+
+  .cg_logo{
+	width: 19%;
+	/*background: #a0da42;*/
+	margin: auto;
+	margin-top: 20px;
+}
+
+footer{
+	position: relative;
+	text-align: center;
+	padding:5px;
+	padding-top: 40px;
+/*	position: relative;*/
+    margin-top: 450px;
+    bottom: 0px;
+	font-family: 'Alata', sans-serif;
+	font-size: 14px;
+}
+
+.WPBUTTON{
+	font-family: 'Alata', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	background: #00dafe;
+	width: 350px;
+	padding: 1px;
+	margin-left: 50%;
+	transform: translate(-50%,0);
+	border-radius: 20px;
+
+}
+
+.WPBUTTON:hover{
+	background: #fe2400;
+}
+
+.WPBUTTON:active{
+	background: #fe005b;
+}
+
+.Gallary{
+	font-family: 'Alata', sans-serif;
+	font-size: 14px;
+	text-align: center;
+	background: #fe005b;
+	width: 350px;
+	padding: 2px;
+	margin-left: 50%;
+	margin-top: 5px;
+	transform: translate(-50%,0);
+	border-radius: 20px;
+}
+
+.Gallary:hover {
+	background: #fe2400;
+}
+
+.Gallary:active {
+	background: #00dafe;
+}
+
+.MainText{
+	width: 700px;
+	margin: auto;
+	height: 200px;
+	margin-top: 200px;
+	font-family: 'Alata', sans-serif;
+	font-size: 16px;
+	text-align: justify;
+}

@@ -22,7 +22,7 @@ a{
 	margin: auto;
 	height: 200px;
 	position: relative;
-	margin-top:1180px;
+	margin-top:1182px;
 	}
 
 	.sig{
@@ -67,7 +67,7 @@ footer{
 	padding:5px;
 	padding-top: 40px;
 /*	position: relative;*/
-    margin-top: 450px;
+    margin-top: 560px;
     bottom: 0px;
 	font-family: 'Alata', sans-serif;
 	font-size: 14px;
@@ -83,6 +83,7 @@ footer{
 	margin-left: 50%;
 	transform: translate(-50%,0);
 	border-radius: 20px;
+	margin-top: 5px;
 
 }
 

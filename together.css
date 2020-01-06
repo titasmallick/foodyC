@@ -1,0 +1,48 @@
+.mainText{
+	position: absolute;
+	width: 75%;
+	top: 80%;
+	left: 50%;
+	border-radius: 20px 0px 20px 0px;
+	transform:translate(-50%,-50%);
+	background-color:rgba(47,79,79,0.3); 
+}
+
+.text{
+	margin: 20px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+}
+
+.countD{
+	position: absolute;
+	text-align: center;
+	color: black;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 25px;
+	width: 75%;
+	top: 55%;
+	margin-left: 50%;
+	transform:translate(-50%,-50%);
+	border-radius: 20px 0px 20px 0px;
+	
+}
+
+.headImage{
+	height: 30vh;
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%,0);
+	z-index: 1;
+}
+
+.lower{
+	position: absolute;
+	bottom: 0px;
+	width: 20%;
+	margin-left: 50%;
+	transform: translate(-50%,0);
+}
